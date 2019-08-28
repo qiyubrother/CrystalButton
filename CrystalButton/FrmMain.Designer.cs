@@ -31,6 +31,8 @@
             this.button1 = new CrystalButton.Button();
             this.button2 = new CrystalButton.Button();
             this.button3 = new CrystalButton.Button();
+            this.button4 = new CrystalButton.Button();
+            this.button5 = new CrystalButton.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -70,15 +72,42 @@
             this.button3.Text = "button3";
             this.button3.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
-            // Form1
+            // button4
+            // 
+            this.button4.CornerRadius = 3F;
+            this.button4.Image = global::CrystalButton.Properties.Resources.radio_button_on_24px;
+            this.button4.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button4.ImageSize = new System.Drawing.Size(24, 24);
+            this.button4.Location = new System.Drawing.Point(254, 219);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 67);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "button4";
+            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button5
+            // 
+            this.button5.CornerRadius = 15F;
+            this.button5.Image = global::CrystalButton.Properties.Resources.radio_button_on_24px;
+            this.button5.ImageSize = new System.Drawing.Size(24, 24);
+            this.button5.Location = new System.Drawing.Point(364, 219);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(126, 44);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "button5";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(633, 338);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Name = "Form1";
+            this.Name = "FrmMain";
             this.Text = "Form1";
             this.ResumeLayout(false);
 
@@ -89,6 +118,8 @@
         private Button button1;
         private Button button2;
         private Button button3;
+        private Button button4;
+        private Button button5;
     }
 }
 
