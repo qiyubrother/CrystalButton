@@ -1,6 +1,6 @@
 ﻿namespace CrystalButton
 {
-    partial class Form1
+    partial class FrmMain
     {
         /// <summary>
         /// 必需的设计器变量。
